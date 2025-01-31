@@ -7,6 +7,7 @@ import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.ui.graphics.vector.ImageVector
 
+// Klasa odpowiedzialna ze ten śmieszny pasek na dole co przekierowuje na odpowiedni screen
 sealed class BottomBar(
     val route: String,
     val title: String,
